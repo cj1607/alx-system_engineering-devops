@@ -22,4 +22,3 @@ def top_ten(subreddit):
         return
     for item in data[0:10]:
         print(item.get('data').get('title'))
-        
